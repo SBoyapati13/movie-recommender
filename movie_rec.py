@@ -723,6 +723,6 @@ class MovieRecommenderApp(tk.Tk):
 
 if __name__ == "__main__":
     # Use environment variable in production
-    API_KEY = os.getenv("TMDB_API_KEY", "698350d0855b4dce8407eb9672bea08f")
+    API_KEY = os.getenv("TMDB_API_KEY", "")
     app = MovieRecommenderApp(API_KEY)
     app.mainloop()
